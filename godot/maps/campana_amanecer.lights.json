@@ -1,0 +1,1 @@
+{"cell":1.5,"lights":[{"pos":[52.0,8.0,55.0],"color":[1.0,0.7686,0.549],"energy":0.98,"range":9.1},{"pos":[98.0,14.0,31.0],"color":[1.0,0.7686,0.549],"energy":1.4,"range":14.3},{"pos":[102.0,12.2,34.5],"color":[1.0,0.4706,0.1961],"energy":1.12,"range":6.5}],"source":"tools/generar_mapa_campana3.py"}

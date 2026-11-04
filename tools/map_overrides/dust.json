@@ -1,0 +1,20 @@
+{
+ "_comentario": "Reglas físicas para Dust 2: el mod usa índices de paleta por color, no por material. Las paredes de arenisca caen en 'metal débil' y las carrocerías en 'mampostería dura'; aquí se corrige por archivo.",
+ "class_remap": {
+  "weakmetal": "hardmasonry"
+ },
+ "class_by_file": {
+  "car_": "weakmetal",
+  "item_car": "weakmetal",
+  "item_truck": "weakmetal",
+  "item_barrel": "weakmetal",
+  "cable_connector": "weakmetal",
+  "antenna": "weakmetal",
+  "pole": "weakmetal",
+  "lamp": "weakmetal",
+  "item_power_box": "weakmetal",
+  "item_trashbin": "weakmetal",
+  "gate": "weakmetal",
+  "item_wheel": "plastic"
+ }
+}

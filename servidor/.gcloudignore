@@ -1,0 +1,8 @@
+# `gcloud run deploy --source .` empaqueta TODO lo que no este aqui, y por defecto respeta
+# .gitignore: eso ya ha mordido antes en este equipo (excluia carpetas que hacian falta). Este
+# fichero manda sobre aquel, asi que la lista es explicita.
+datos/
+prueba.js
+README.md
+node_modules/
+.git/

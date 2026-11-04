@@ -1,0 +1,9 @@
+{
+  "name": "breach-cuentas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cuentas de Breach: registro, sesion y progreso en JSON sobre Cloud Storage",
+  "main": "index.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node index.js" }
+}

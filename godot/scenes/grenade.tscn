@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/grenade.gd" id="1_grenade"]
+
+[sub_resource type="SphereShape3D" id="Sphere_1"]
+radius = 0.09
+
+[sub_resource type="SphereMesh" id="SphereMesh_1"]
+radius = 0.09
+height = 0.18
+
+[sub_resource type="StandardMaterial3D" id="Mat_1"]
+albedo_color = Color(0.2, 0.32, 0.18, 1)
+
+[node name="Grenade" type="RigidBody3D"]
+collision_layer = 1
+collision_mask = 5
+mass = 0.4
+script = ExtResource("1_grenade")
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+shape = SubResource("Sphere_1")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_1")
+surface_material_override/0 = SubResource("Mat_1")

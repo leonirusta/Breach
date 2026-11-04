@@ -1,0 +1,7 @@
+{
+  "modo": "deathmatch",
+  "objetivo_bajas": 50,
+  "spawn_t": [104.1, 11.6, 64.7],
+  "spawn_ct": [157.7, 11.3, 54.1],
+  "altura_minima": 5.0
+}

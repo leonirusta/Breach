@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://shaders/voxel.gdshader" id="1_voxel"]
+
+[resource]
+shader = ExtResource("1_voxel")
+shader_parameter/noise_strength = 0.12
+shader_parameter/voxel_size = 0.25
+shader_parameter/roughness_value = 0.92

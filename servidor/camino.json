@@ -1,0 +1,370 @@
+{
+ "niveles": [
+  {
+   "c": {
+    "si_ya": 150,
+    "t": "arma",
+    "v": "carabina_556"
+   },
+   "nivel": 2
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 40
+   },
+   "nivel": 3
+  },
+  {
+   "c": {
+    "si_ya": 200,
+    "t": "arma",
+    "v": "pistola_45"
+   },
+   "nivel": 4
+  },
+  {
+   "c": {
+    "n": 3,
+    "t": "carta",
+    "v": "vida"
+   },
+   "nivel": 5
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 40
+   },
+   "nivel": 6
+  },
+  {
+   "c": {
+    "t": "diamantes",
+    "v": 5
+   },
+   "nivel": 7
+  },
+  {
+   "c": {
+    "si_ya": 325,
+    "t": "arma",
+    "v": "revolver_44"
+   },
+   "nivel": 8
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 50
+   },
+   "nivel": 9
+  },
+  {
+   "c": {
+    "n": 3,
+    "t": "carta",
+    "v": "dano"
+   },
+   "nivel": 10
+  },
+  {
+   "c": {
+    "t": "cofre",
+    "v": 0
+   },
+   "nivel": 11
+  },
+  {
+   "c": {
+    "si_ya": 225,
+    "t": "arma",
+    "v": "smg_9mm"
+   },
+   "nivel": 12
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 60
+   },
+   "nivel": 13
+  },
+  {
+   "c": {
+    "t": "diamantes",
+    "v": 5
+   },
+   "nivel": 14
+  },
+  {
+   "c": {
+    "n": 3,
+    "t": "carta",
+    "v": "velocidad"
+   },
+   "nivel": 15
+  },
+  {
+   "c": {
+    "si_ya": 2000,
+    "t": "modelo",
+    "v": "Puño de Oro"
+   },
+   "nivel": 16
+  },
+  {
+   "c": {
+    "t": "cubos",
+    "v": 2
+   },
+   "nivel": 17
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 60
+   },
+   "nivel": 18
+  },
+  {
+   "c": {
+    "n": 3,
+    "t": "carta",
+    "v": "salto"
+   },
+   "nivel": 19
+  },
+  {
+   "c": {
+    "si_ya": 350,
+    "t": "arma",
+    "v": "fusil_762"
+   },
+   "nivel": 20
+  },
+  {
+   "c": {
+    "t": "diamantes",
+    "v": 5
+   },
+   "nivel": 21
+  },
+  {
+   "c": {
+    "t": "cofre",
+    "v": 0
+   },
+   "nivel": 22
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 80
+   },
+   "nivel": 23
+  },
+  {
+   "c": {
+    "si_ya": 150,
+    "t": "mazo",
+    "v": "mazo_obra"
+   },
+   "nivel": 24
+  },
+  {
+   "c": {
+    "n": 4,
+    "t": "carta",
+    "v": "regeneracion"
+   },
+   "nivel": 25
+  },
+  {
+   "c": {
+    "t": "cubos",
+    "v": 2
+   },
+   "nivel": 26
+  },
+  {
+   "c": {
+    "t": "diamantes",
+    "v": 5
+   },
+   "nivel": 27
+  },
+  {
+   "c": {
+    "si_ya": 450,
+    "t": "arma",
+    "v": "pdw_57"
+   },
+   "nivel": 28
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 80
+   },
+   "nivel": 29
+  },
+  {
+   "c": {
+    "n": 4,
+    "t": "carta",
+    "v": "blindaje"
+   },
+   "nivel": 30
+  },
+  {
+   "c": {
+    "t": "cofre",
+    "v": 1
+   },
+   "nivel": 31
+  },
+  {
+   "c": {
+    "si_ya": 2000,
+    "t": "modelo",
+    "v": "Golpe de Cristal"
+   },
+   "nivel": 32
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 100
+   },
+   "nivel": 33
+  },
+  {
+   "c": {
+    "n": 4,
+    "t": "carta",
+    "v": "piel_dura"
+   },
+   "nivel": 34
+  },
+  {
+   "c": {
+    "t": "diamantes",
+    "v": 5
+   },
+   "nivel": 35
+  },
+  {
+   "c": {
+    "si_ya": 500,
+    "t": "arma",
+    "v": "bazooka_at4"
+   },
+   "nivel": 36
+  },
+  {
+   "c": {
+    "t": "cubos",
+    "v": 3
+   },
+   "nivel": 37
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 100
+   },
+   "nivel": 38
+  },
+  {
+   "c": {
+    "n": 5,
+    "t": "carta",
+    "v": "municion"
+   },
+   "nivel": 39
+  },
+  {
+   "c": {
+    "si_ya": 62,
+    "t": "pintura",
+    "v": "sk_bosque"
+   },
+   "nivel": 40
+  },
+  {
+   "c": {
+    "t": "cofre",
+    "v": 1
+   },
+   "nivel": 41
+  },
+  {
+   "c": {
+    "t": "diamantes",
+    "v": 5
+   },
+   "nivel": 42
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 120
+   },
+   "nivel": 43
+  },
+  {
+   "c": {
+    "si_ya": 550,
+    "t": "arma",
+    "v": "escopeta_auto"
+   },
+   "nivel": 44
+  },
+  {
+   "c": {
+    "n": 5,
+    "t": "carta",
+    "v": "vampiro"
+   },
+   "nivel": 45
+  },
+  {
+   "c": {
+    "t": "cubos",
+    "v": 3
+   },
+   "nivel": 46
+  },
+  {
+   "c": {
+    "t": "oro",
+    "v": 150
+   },
+   "nivel": 47
+  },
+  {
+   "c": {
+    "n": 5,
+    "t": "carta",
+    "v": "rescatista"
+   },
+   "nivel": 48
+  },
+  {
+   "c": {
+    "t": "diamantes",
+    "v": 10
+   },
+   "nivel": 49
+  },
+  {
+   "c": {
+    "si_ya": 2000,
+    "t": "modelo",
+    "v": "Specter"
+   },
+   "nivel": 50
+  }
+ ]
+}

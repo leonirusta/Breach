@@ -1,0 +1,428 @@
+{
+ "coche": {
+  "tipo": "coche",
+  "masa": 1250.0,
+  "tamano": [
+   1.8,
+   1.82,
+   4.4
+  ],
+  "asientos": [
+   {
+    "pos": [
+     -0.42,
+     0.5,
+     -0.1
+    ],
+    "rol": "conductor"
+   },
+   {
+    "pos": [
+     0.42,
+     0.5,
+     -0.1
+    ],
+    "rol": "pasajero"
+   },
+   {
+    "pos": [
+     -0.42,
+     0.5,
+     0.58
+    ],
+    "rol": "pasajero"
+   },
+   {
+    "pos": [
+     0.42,
+     0.5,
+     0.58
+    ],
+    "rol": "pasajero"
+   }
+  ],
+  "ruedas": [
+   {
+    "nodo": "rueda_del_i",
+    "pos": [
+     -0.78,
+     0.34,
+     -1.4
+    ],
+    "radio": 0.34,
+    "ancho": 0.24,
+    "dirige": true
+   },
+   {
+    "nodo": "rueda_del_d",
+    "pos": [
+     0.78,
+     0.34,
+     -1.4
+    ],
+    "radio": 0.34,
+    "ancho": 0.24,
+    "dirige": true
+   },
+   {
+    "nodo": "rueda_tra_i",
+    "pos": [
+     -0.78,
+     0.34,
+     1.4
+    ],
+    "radio": 0.34,
+    "ancho": 0.24,
+    "dirige": false
+   },
+   {
+    "nodo": "rueda_tra_d",
+    "pos": [
+     0.78,
+     0.34,
+     1.4
+    ],
+    "radio": 0.34,
+    "ancho": 0.24,
+    "dirige": false
+   }
+  ],
+  "motor": [
+   0.0,
+   0.86,
+   -1.7
+  ],
+  "escape": [
+   0.45,
+   0.44,
+   2.28
+  ],
+  "faros": [
+   [
+    -0.62,
+    0.64,
+    -2.18
+   ],
+   [
+    0.62,
+    0.64,
+    -2.18
+   ]
+  ],
+  "ventanillas": [
+   {
+    "asiento": 0,
+    "lado": -1
+   },
+   {
+    "asiento": 1,
+    "lado": 1
+   },
+   {
+    "asiento": 2,
+    "lado": -1
+   },
+   {
+    "asiento": 3,
+    "lado": 1
+   }
+  ],
+  "suelo_cabina": 0.34
+ },
+ "todoterreno": {
+  "tipo": "todoterreno",
+  "masa": 2100.0,
+  "tamano": [
+   2.1,
+   2.6,
+   5.1
+  ],
+  "asientos": [
+   {
+    "pos": [
+     -0.45,
+     0.82,
+     -0.48
+    ],
+    "rol": "conductor"
+   },
+   {
+    "pos": [
+     0.45,
+     0.82,
+     -0.48
+    ],
+    "rol": "pasajero"
+   },
+   {
+    "pos": [
+     -0.45,
+     0.82,
+     -0.02
+    ],
+    "rol": "pasajero"
+   },
+   {
+    "pos": [
+     0.45,
+     0.82,
+     -0.02
+    ],
+    "rol": "pasajero"
+   }
+  ],
+  "ruedas": [
+   {
+    "nodo": "rueda_del_i",
+    "pos": [
+     -0.89,
+     0.46,
+     -1.65
+    ],
+    "radio": 0.46,
+    "ancho": 0.32,
+    "dirige": true
+   },
+   {
+    "nodo": "rueda_del_d",
+    "pos": [
+     0.89,
+     0.46,
+     -1.65
+    ],
+    "radio": 0.46,
+    "ancho": 0.32,
+    "dirige": true
+   },
+   {
+    "nodo": "rueda_tra_i",
+    "pos": [
+     -0.89,
+     0.46,
+     1.65
+    ],
+    "radio": 0.46,
+    "ancho": 0.32,
+    "dirige": false
+   },
+   {
+    "nodo": "rueda_tra_d",
+    "pos": [
+     0.89,
+     0.46,
+     1.65
+    ],
+    "radio": 0.46,
+    "ancho": 0.32,
+    "dirige": false
+   }
+  ],
+  "motor": [
+   0.0,
+   1.2,
+   -2.05
+  ],
+  "escape": [
+   0.5,
+   0.62,
+   2.65
+  ],
+  "faros": [
+   [
+    -0.72,
+    1.06,
+    -2.53
+   ],
+   [
+    0.72,
+    1.06,
+    -2.53
+   ],
+   [
+    -0.2,
+    2.48,
+    0.3
+   ],
+   [
+    0.2,
+    2.48,
+    0.3
+   ]
+  ],
+  "ventanillas": [
+   {
+    "asiento": 0,
+    "lado": -1
+   },
+   {
+    "asiento": 1,
+    "lado": 1
+   },
+   {
+    "asiento": 2,
+    "lado": -1
+   },
+   {
+    "asiento": 3,
+    "lado": 1
+   }
+  ],
+  "suelo_cabina": 0.66
+ },
+ "moto": {
+  "tipo": "moto",
+  "masa": 190.0,
+  "tamano": [
+   0.85,
+   1.35,
+   2.2
+  ],
+  "asientos": [
+   {
+    "pos": [
+     0.0,
+     0.94,
+     0.32
+    ],
+    "rol": "conductor"
+   },
+   {
+    "pos": [
+     0.0,
+     1.02,
+     0.78
+    ],
+    "rol": "pasajero"
+   }
+  ],
+  "ruedas": [
+   {
+    "nodo": "rueda_del",
+    "pos": [
+     0.0,
+     0.34,
+     -0.7
+    ],
+    "radio": 0.34,
+    "ancho": 0.16,
+    "dirige": true
+   },
+   {
+    "nodo": "rueda_tra",
+    "pos": [
+     0.0,
+     0.34,
+     0.66
+    ],
+    "radio": 0.34,
+    "ancho": 0.16,
+    "dirige": false
+   }
+  ],
+  "motor": [
+   0.0,
+   0.6,
+   -0.1
+  ],
+  "escape": [
+   0.17,
+   0.52,
+   0.92
+  ],
+  "faros": [
+   [
+    0.0,
+    0.88,
+    -0.78
+   ]
+  ],
+  "ventanillas": [],
+  "suelo_cabina": 0.34
+ },
+ "helicoptero": {
+  "tipo": "helicoptero",
+  "masa": 1400.0,
+  "tamano": [
+   2.4,
+   3.2,
+   8.2
+  ],
+  "asientos": [
+   {
+    "pos": [
+     -0.42,
+     0.88,
+     -1.1
+    ],
+    "rol": "conductor"
+   },
+   {
+    "pos": [
+     0.42,
+     0.88,
+     -1.1
+    ],
+    "rol": "pasajero"
+   }
+  ],
+  "ruedas": [],
+  "motor": [
+   0.0,
+   1.7,
+   0.3
+  ],
+  "escape": [
+   0.0,
+   1.7,
+   0.7
+  ],
+  "faros": [
+   [
+    0.0,
+    0.45,
+    -2.12
+   ]
+  ],
+  "ventanillas": [
+   {
+    "asiento": 1,
+    "lado": 1
+   }
+  ],
+  "suelo_cabina": 0.72,
+  "rotores": [
+   {
+    "nodo": "rotor",
+    "pos": [
+     0.0,
+     2.46,
+     -0.25
+    ],
+    "eje": "y",
+    "rpm": 4.5
+   },
+   {
+    "nodo": "rotor_cola",
+    "pos": [
+     0.22,
+     1.88,
+     4.5
+    ],
+    "eje": "x",
+    "rpm": 11.0
+   }
+  ],
+  "patines": [
+   [
+    -0.8,
+    0.12,
+    -0.0
+   ],
+   [
+    0.8,
+    0.12,
+    -0.0
+   ]
+  ]
+ }
+}

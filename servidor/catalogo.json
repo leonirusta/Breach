@@ -1,0 +1,189 @@
+{
+  "bazooka_at4": {
+    "n": "Lanzacohetes AT4",
+    "t": "arma"
+  },
+  "bazooka_rpg": {
+    "n": "Bazooka RPG",
+    "t": "arma"
+  },
+  "carabina_556": {
+    "n": "Carabina 5.56",
+    "t": "arma"
+  },
+  "escopeta_auto": {
+    "n": "Escopeta automatica",
+    "t": "arma"
+  },
+  "escudo_pistola": {
+    "n": "Escudo balístico",
+    "t": "arma"
+  },
+  "fusil_762": {
+    "n": "Fusil 7.62",
+    "t": "arma"
+  },
+  "fusil_bullpup": {
+    "n": "Bullpup silenciado",
+    "t": "arma"
+  },
+  "mazo_chupetin": {
+    "n": "Mazo chupetín",
+    "t": "mazo"
+  },
+  "mazo_extintor": {
+    "n": "Extintor",
+    "t": "mazo"
+  },
+  "mazo_femur": {
+    "n": "Fémur",
+    "t": "mazo"
+  },
+  "mazo_llave": {
+    "n": "Llave del mecánico",
+    "t": "mazo"
+  },
+  "mazo_obra": {
+    "n": "Mazo de obra",
+    "t": "mazo"
+  },
+  "mazo_plasma": {
+    "n": "Martillo de plasma",
+    "t": "mazo"
+  },
+  "mazo_senal": {
+    "n": "Señal de stop",
+    "t": "mazo"
+  },
+  "mazo_tempano": {
+    "n": "Témpano",
+    "t": "mazo"
+  },
+  "mazo_trofeo": {
+    "n": "Trofeo",
+    "t": "mazo"
+  },
+  "mazo_yunque": {
+    "n": "Yunque",
+    "t": "mazo"
+  },
+  "modelo:Civil": {
+    "n": "Civil",
+    "t": "personaje"
+  },
+  "modelo:Comando": {
+    "n": "Comando",
+    "t": "personaje"
+  },
+  "modelo:Golpe de Cristal": {
+    "moneda": "creditos",
+    "n": "Golpe de Cristal",
+    "t": "personaje"
+  },
+  "modelo:Heraldo Forjado": {
+    "n": "Heraldo Forjado",
+    "t": "personaje"
+  },
+  "modelo:Heraldo de Ceniza": {
+    "n": "Heraldo de Ceniza",
+    "t": "personaje"
+  },
+  "modelo:Heraldo de Llama": {
+    "n": "Heraldo de Llama",
+    "t": "personaje"
+  },
+  "modelo:Puño de Oro": {
+    "moneda": "creditos",
+    "n": "Puño de Oro",
+    "t": "personaje"
+  },
+  "modelo:Specter": {
+    "moneda": "creditos",
+    "n": "Specter",
+    "t": "personaje"
+  },
+  "modelo:Urbana": {
+    "n": "Urbana",
+    "t": "personaje"
+  },
+  "pase_t1": {
+    "n": "Pase premium · Temporada 1",
+    "t": "pase"
+  },
+  "pdw_57": {
+    "n": "PDW 5.7",
+    "t": "arma"
+  },
+  "pistola_45": {
+    "n": "Pistola .45 tactica",
+    "t": "arma"
+  },
+  "revolver_44": {
+    "n": "Revolver .44",
+    "t": "arma"
+  },
+  "rifle_precision": {
+    "n": "Rifle de precision",
+    "t": "arma"
+  },
+  "sk_arena": {
+    "n": "DESIERTO (común)",
+    "t": "pintura"
+  },
+  "sk_bosque": {
+    "n": "BOSQUE (poco común)",
+    "t": "pintura"
+  },
+  "sk_calle": {
+    "n": "SAHARA (legendaria)",
+    "t": "pintura"
+  },
+  "sk_ceniza": {
+    "n": "GRIS URBANO (común)",
+    "t": "pintura"
+  },
+  "sk_cyber": {
+    "n": "MULTITERRENO (épica)",
+    "t": "pintura"
+  },
+  "sk_dorado": {
+    "n": "ORO DE GUERRA (legendaria)",
+    "t": "pintura"
+  },
+  "sk_dragon": {
+    "n": "BRASA (mítica)",
+    "t": "pintura"
+  },
+  "sk_glaciar": {
+    "n": "PUNTEADO (legendaria)",
+    "t": "pintura"
+  },
+  "sk_hormigon": {
+    "n": "ASTILLAS (poco común)",
+    "t": "pintura"
+  },
+  "sk_neon": {
+    "n": "NOCTURNO (épica)",
+    "t": "pintura"
+  },
+  "sk_oxido": {
+    "n": "RAYA DE TIGRE (rara)",
+    "t": "pintura"
+  },
+  "sk_prisma": {
+    "n": "ESPECTRO (mítica)",
+    "t": "pintura"
+  },
+  "sk_toxico": {
+    "n": "ÁRTICO (épica)",
+    "t": "pintura"
+  },
+  "sk_tropical": {
+    "n": "SELVA DIGITAL (rara)",
+    "t": "pintura"
+  },
+  "smg_9mm": {
+    "n": "Subfusil 9MM",
+    "t": "arma"
+  }
+}

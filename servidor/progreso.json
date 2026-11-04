@@ -1,0 +1,437 @@
+{
+ "cofres": {
+  "cartas": {
+   "copias": [
+    0,
+    2,
+    4,
+    6,
+    10,
+    14,
+    20,
+    28,
+    38,
+    50
+   ],
+   "cubos": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16
+   ],
+   "ids": [
+    "dano",
+    "municion",
+    "vida",
+    "regeneracion",
+    "vampiro",
+    "rescatista",
+    "blindaje",
+    "piel_dura",
+    "velocidad",
+    "salto",
+    "destruccion",
+    "explosion",
+    "enfriamiento",
+    "definitiva"
+   ],
+   "nivel_max": 10,
+   "nombres": {
+    "blindaje": "BLINDAJE",
+    "dano": "AUMENTO DE DAÑO",
+    "definitiva": "RECARGA DE DEFINITIVA",
+    "destruccion": "DAÑO POR DESTRUCCIÓN",
+    "enfriamiento": "REDUCCIÓN DE ENFRIAMIENTO",
+    "explosion": "EXPLOSIÓN AMPLIA",
+    "municion": "MUNICIÓN AL ELIMINAR",
+    "piel_dura": "PIEL DURA",
+    "regeneracion": "REGEN. DE SALUD",
+    "rescatista": "RESCATISTA",
+    "salto": "SALTO ALTO",
+    "vampiro": "VAMPIRO",
+    "velocidad": "VEL. DE MOVIMIENTO",
+    "vida": "SALUD MÁX."
+   },
+   "oro": [
+    0,
+    40,
+    80,
+    150,
+    250,
+    400,
+    600,
+    850,
+    1200,
+    1600
+   ],
+   "rareza": {
+    "blindaje": 1,
+    "dano": 0,
+    "definitiva": 3,
+    "destruccion": 2,
+    "enfriamiento": 3,
+    "explosion": 3,
+    "municion": 2,
+    "piel_dura": 1,
+    "regeneracion": 1,
+    "rescatista": 2,
+    "salto": 1,
+    "vampiro": 2,
+    "velocidad": 0,
+    "vida": 0
+   },
+   "valores": {
+    "blindaje": {
+     "base": 0.03,
+     "paso": 0.01,
+     "unidad": "% menos"
+    },
+    "dano": {
+     "base": 0.02,
+     "paso": 0.01,
+     "unidad": "%"
+    },
+    "definitiva": {
+     "base": 0.04,
+     "paso": 0.012,
+     "unidad": "%"
+    },
+    "destruccion": {
+     "base": 0.15,
+     "paso": 0.06,
+     "unidad": "%"
+    },
+    "enfriamiento": {
+     "base": 0.05,
+     "paso": 0.025,
+     "unidad": "% menos"
+    },
+    "explosion": {
+     "base": 0.05,
+     "paso": 0.02,
+     "unidad": "%"
+    },
+    "municion": {
+     "base": 0.15,
+     "paso": 0.03,
+     "unidad": "%"
+    },
+    "piel_dura": {
+     "base": 0.05,
+     "paso": 0.02,
+     "unidad": "% menos"
+    },
+    "regeneracion": {
+     "base": 2.0,
+     "paso": 0.6,
+     "unidad": " vida/s"
+    },
+    "rescatista": {
+     "base": 0.1,
+     "paso": 0.04,
+     "unidad": "%"
+    },
+    "salto": {
+     "base": 0.04,
+     "paso": 0.015,
+     "unidad": "%"
+    },
+    "vampiro": {
+     "base": 8.0,
+     "paso": 2.5,
+     "unidad": " vida"
+    },
+    "velocidad": {
+     "base": 0.02,
+     "paso": 0.008,
+     "unidad": "%"
+    },
+    "vida": {
+     "base": 0.03,
+     "paso": 0.015,
+     "unidad": "%"
+    }
+   }
+  },
+  "premios": [
+   [
+    {
+     "hasta": 0,
+     "max": 2,
+     "min": 1,
+     "si_no": {
+      "max": 30,
+      "min": 20,
+      "t": "oro"
+     },
+     "t": "carta",
+     "w": 60
+    },
+    {
+     "max": 30,
+     "min": 15,
+     "t": "oro",
+     "w": 25
+    },
+    {
+     "max": 1,
+     "min": 1,
+     "t": "cubos",
+     "w": 15
+    }
+   ],
+   [
+    {
+     "hasta": 1,
+     "max": 3,
+     "min": 2,
+     "si_no": {
+      "max": 70,
+      "min": 50,
+      "t": "oro"
+     },
+     "t": "carta",
+     "w": 60
+    },
+    {
+     "max": 70,
+     "min": 40,
+     "t": "oro",
+     "w": 20
+    },
+    {
+     "max": 2,
+     "min": 1,
+     "t": "cubos",
+     "w": 20
+    }
+   ],
+   [
+    {
+     "hasta": 2,
+     "max": 5,
+     "min": 3,
+     "si_no": {
+      "max": 4,
+      "min": 3,
+      "t": "cubos"
+     },
+     "t": "carta",
+     "w": 60
+    },
+    {
+     "max": 4,
+     "min": 2,
+     "t": "cubos",
+     "w": 25
+    },
+    {
+     "max": 130,
+     "min": 90,
+     "t": "oro",
+     "w": 15
+    }
+   ],
+   [
+    {
+     "hasta": 3,
+     "max": 8,
+     "min": 5,
+     "si_no": {
+      "max": 7,
+      "min": 6,
+      "t": "cubos"
+     },
+     "t": "carta",
+     "w": 60
+    },
+    {
+     "max": 7,
+     "min": 5,
+     "t": "cubos",
+     "w": 25
+    },
+    {
+     "pool": [
+      "sk_ceniza",
+      "sk_arena",
+      "sk_bosque",
+      "sk_hormigon"
+     ],
+     "si_no": {
+      "max": 6,
+      "min": 6,
+      "t": "cubos"
+     },
+     "t": "articulo",
+     "w": 15
+    }
+   ],
+   [
+    {
+     "hasta": 3,
+     "max": 12,
+     "min": 8,
+     "si_no": {
+      "max": 12,
+      "min": 12,
+      "t": "cubos"
+     },
+     "t": "carta",
+     "w": 55
+    },
+    {
+     "pool": [
+      "sk_oxido",
+      "sk_tropical",
+      "sk_neon",
+      "sk_cyber",
+      "sk_toxico",
+      "mazo_obra",
+      "mazo_llave",
+      "mazo_extintor",
+      "mazo_yunque"
+     ],
+     "si_no": {
+      "max": 12,
+      "min": 12,
+      "t": "cubos"
+     },
+     "t": "articulo",
+     "w": 30
+    },
+    {
+     "max": 13,
+     "min": 10,
+     "t": "cubos",
+     "w": 15
+    }
+   ],
+   [
+    {
+     "hasta": 3,
+     "max": 20,
+     "min": 14,
+     "si_no": {
+      "max": 10,
+      "min": 10,
+      "t": "diamantes"
+     },
+     "t": "carta",
+     "w": 45
+    },
+    {
+     "pool": [
+      "sk_dorado",
+      "sk_glaciar",
+      "sk_calle",
+      "sk_dragon",
+      "sk_prisma",
+      "modelo:Heraldo de Ceniza"
+     ],
+     "si_no": {
+      "max": 10,
+      "min": 10,
+      "t": "diamantes"
+     },
+     "t": "articulo",
+     "w": 40
+    },
+    {
+     "max": 10,
+     "min": 10,
+     "t": "diamantes",
+     "w": 15
+    }
+   ]
+  ],
+  "sube": [
+   0.4,
+   0.25,
+   0.12,
+   0.05,
+   0.02
+  ],
+  "toques": 4
+ },
+ "personajes": {
+  "coste": {
+   "10": [
+    89,
+    1875
+   ],
+   "11": [
+    144,
+    2800
+   ],
+   "2": [
+    2,
+    20
+   ],
+   "3": [
+    3,
+    35
+   ],
+   "4": [
+    5,
+    75
+   ],
+   "5": [
+    8,
+    140
+   ],
+   "6": [
+    13,
+    290
+   ],
+   "7": [
+    21,
+    480
+   ],
+   "8": [
+    34,
+    800
+   ],
+   "9": [
+    55,
+    1250
+   ]
+  },
+  "gratis": [
+   "soldado"
+  ],
+  "max": 11,
+  "nombres": [
+   "soldado",
+   "puno",
+   "salto",
+   "specter"
+  ],
+  "skins": {
+   "puno": [
+    "Puño de Oro"
+   ],
+   "salto": [
+    "Golpe de Cristal"
+   ],
+   "soldado": [
+    "Original",
+    "Heraldo de Ceniza",
+    "Heraldo Forjado",
+    "Heraldo de Llama",
+    "Comando",
+    "Civil",
+    "Urbana"
+   ],
+   "specter": [
+    "Specter"
+   ]
+  }
+ }
+}

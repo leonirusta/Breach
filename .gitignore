@@ -1,0 +1,87 @@
+# --- LO QUE NO VA AL REPOSITORIO ---------------------------------------------------------------
+# Criterio: sube el CODIGO FUENTE y lo que hace falta para compilarlo. Todo lo que se puede volver a
+# generar, lo que pesa de mas, y lo que no es nuestro, se queda fuera.
+
+# EL SDK DE GODOT-CPP: 841 MB. No es codigo nuestro, es una dependencia que se clona aparte.
+# Para compilar la extension hace falta traerselo con:
+#   git clone -b 4.4 https://github.com/godotengine/godot-cpp godot/extension/godot-cpp
+godot/extension/godot-cpp/
+
+# ARTEFACTOS COMPILADOS. Se generan con tools/build_extension.bat; ademas GitHub rechaza cualquier
+# archivo de mas de 100 MB, y el APK son 117.
+*.apk
+*.idsig
+godot/bin/*
+# la extension de Windows SI va: sin ella el juego no arranca desde el repo
+!godot/bin/breach_voxel.gdextension
+!godot/bin/libbreach_voxel.windows.template_release.x86_64.dll
+# el ejecutable de Godot (180 MB, GitHub no acepta >100 MB): JUGAR.bat lo descarga solo
+motor/
+core/build/
+*.obj
+*.lib
+*.exp
+*.pdb
+
+# LA CACHE DE IMPORTACION DE GODOT. Se rehace sola al abrir el proyecto y son miles de archivos.
+godot/.godot/
+.godot/
+
+# VIDEO: 339 MB de capturas y el trailer. No hacen falta para compilar nada.
+video/
+*.mp4
+
+# Registros de ejecucion y pruebas
+*.log
+
+# Basura del sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- SONIDOS DE TEARDOWN (84 MB) ----------------------------------------------------------------
+# EXCLUIDOS POR DEFECTO, y no por tamano: son el audio de un juego comercial. Subirlos a un
+# repositorio publico es redistribuirlos, y eso no lo arregla que tu juego no sea comercial.
+#
+# Si el repositorio va a ser PRIVADO y solo para ti, borra esta linea y vuelve a hacer commit.
+# Sacarlos DESPUES de subirlos no es igual de facil: hay que reescribir el historial.
+godot/sounds/td/
+
+# --- MATERIAL INTERMEDIO DE TERCEROS (119 MB) ---------------------------------------------------
+# Mapas y prefabs extraidos de Teardown (incluido uno del Workshop) mas volcados .bin. Mismo motivo
+# que los sonidos: no es nuestro y no se redistribuye. Y ademas no hace falta para compilar: son la
+# entrada de las herramientas de conversion, no del juego.
+tools/staging/
+*.bin
+
+# CREDENCIALES DE GOOGLE. El fichero que descarga la consola lleva el `client_secret` en claro: con
+# el, cualquiera puede hacerse pasar por nuestra aplicacion ante Google. No entra en el repositorio
+# ni aunque el repositorio sea privado (los repos cambian de manos, se clonan y se publican).
+client_secret_*.json
+*.client_secret.json
+
+# CAPTURAS Y NOTAS DE TRABAJO EN LA RAIZ. Son el "antes y despues" de cada cambio: sirven para mirar
+# una vez y tirar. Si una captura documenta algo, va en docs/ con nombre propio.
+/*.png
+/*.jpeg
+/*.jpg
+/monaco_informe.txt
+
+# AUDIO SUELTO EN LA RAIZ. Material de procedencia sin comprobar: el audio del juego se genera
+# (tools/generar_sonidos_pve.py) o es libre, y vive en godot/sounds/.
+/*.mp3
+
+# ARTEFACTOS DE COMPILACION DE ANDROID. Objetos .o y librerias .a: se rehacen con
+# tools/build_extension_android.bat y ensucian cada commit con megas de binarios.
+godot/extension/build-android-arm64/
+godot/extension/build-android-arm64-opt/
+godot/extension/build/
+
+# Cache de Python de los scripts de Blender
+__pycache__/
+*.pyc
+
+# Copias de seguridad de mapas antes de recortarlos
+godot/maps/backup/
+
+servidor/discord_webhook.txt

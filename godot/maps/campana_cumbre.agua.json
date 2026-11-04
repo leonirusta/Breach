@@ -1,0 +1,14 @@
+{
+ "cuerpos": [
+  {
+   "y": 2.55,
+   "rect": [
+    12.0,
+    116.0,
+    116.0,
+    168.0
+   ]
+  }
+ ],
+ "source": "tools/generar_mapa_campana6.py"
+}

@@ -1,0 +1,14 @@
+BADGE DE GOOGLE PLAY PARA EL VIDEO
+===================================
+El plano final del anuncio (scripts/promo.gd) busca aqui:
+
+    godot/assets/store_badge.png
+
+Si ese archivo existe, lo usa tal cual. Si no, pinta una chapa neutra que pone
+"DISPONIBLE PARA ANDROID".
+
+El logotipo de Google Play es marca registrada de Google y tiene normas de uso
+propias, asi que no se dibuja una imitacion: hay que poner el oficial. Se descarga
+del generador de badges de Google ("Google Play Badge Generator", en
+play.google.com/intl/es/badges/). Elige idioma espanol, descarga el PNG y guardalo
+aqui con ese nombre exacto.

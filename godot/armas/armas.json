@@ -1,0 +1,976 @@
+{
+ "carabina_556": {
+  "nombre": "CARABINA 5.56",
+  "kind": "rifle",
+  "optica": "prisma",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.072,
+   0.06
+  ],
+  "foregrip": [
+   0.0,
+   -0.012,
+   -0.25
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.014,
+   -0.15
+  ],
+  "sight": [
+   0.0,
+   0.086,
+   0.018
+  ],
+  "muzzle": [
+   0.0,
+   0.014,
+   -0.47
+  ],
+  "mag_seat": [
+   0.0,
+   -0.074,
+   -0.062
+  ],
+  "eject": [
+   0.03,
+   0.014,
+   -0.08
+  ],
+  "rear_z": 0.279,
+  "ads_dist": 0.14,
+  "fogonazo": 1.0,
+  "largo": 0.749,
+  "tris": 15990,
+  "cargador": true
+ },
+ "fusil_762": {
+  "nombre": "FUSIL 7.62",
+  "kind": "rifle",
+  "optica": "hierro",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.074,
+   0.088
+  ],
+  "foregrip": [
+   0.0,
+   -0.022,
+   -0.23
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.022,
+   -0.15
+  ],
+  "sight": [
+   0.0,
+   0.06324,
+   0.05
+  ],
+  "muzzle": [
+   0.0,
+   0.016,
+   -0.478
+  ],
+  "mag_seat": [
+   0.0,
+   -0.058,
+   -0.008
+  ],
+  "eject": [
+   0.028,
+   0.02,
+   -0.052
+  ],
+  "rear_z": 0.35,
+  "ads_dist": 0.06,
+  "fogonazo": 1.0,
+  "largo": 0.83,
+  "tris": 6100,
+  "cargador": true
+ },
+ "fusil_bullpup": {
+  "nombre": "BULLPUP SILENCIADO",
+  "kind": "rifle",
+  "optica": "holo",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.078,
+   0.03
+  ],
+  "foregrip": [
+   0.0,
+   -0.03,
+   -0.18
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.032,
+   -0.115
+  ],
+  "sight": [
+   0.0,
+   0.085,
+   -0.0
+  ],
+  "muzzle": [
+   0.0,
+   0.01,
+   -0.44
+  ],
+  "mag_seat": [
+   0.0,
+   -0.042,
+   0.11
+  ],
+  "eject": [
+   0.03,
+   0.01,
+   0.04
+  ],
+  "rear_z": 0.31,
+  "fogonazo": 0.2,
+  "largo": 0.75,
+  "tris": 9834,
+  "cargador": true,
+  "ads_dist": 0.1
+ },
+ "smg_9mm": {
+  "nombre": "SUBFUSIL 9MM",
+  "kind": "smg",
+  "optica": "diopter",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.08,
+   0.064
+  ],
+  "foregrip": [
+   0.0,
+   -0.014,
+   -0.18
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.016,
+   -0.12
+  ],
+  "sight": [
+   0.0,
+   0.06,
+   0.07
+  ],
+  "muzzle": [
+   0.0,
+   0.014,
+   -0.293
+  ],
+  "mag_seat": [
+   0.0,
+   -0.03,
+   -0.01
+  ],
+  "eject": [
+   0.026,
+   0.022,
+   -0.06
+  ],
+  "rear_z": 0.295,
+  "ads_dist": 0.1,
+  "fogonazo": 1.0,
+  "largo": 0.59,
+  "tris": 5580,
+  "cargador": true
+ },
+ "smg_compacta": {
+  "nombre": "METRALLETA COMPACTA",
+  "kind": "smg",
+  "optica": "hierro",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.062,
+   0.044
+  ],
+  "foregrip": [
+   0.0,
+   -0.01,
+   -0.128
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.012,
+   -0.095
+  ],
+  "sight": [
+   0.0,
+   0.0483,
+   0.07
+  ],
+  "muzzle": [
+   0.0,
+   0.012,
+   -0.2
+  ],
+  "mag_seat": [
+   0.0,
+   -0.08,
+   0.038
+  ],
+  "eject": [
+   0.026,
+   0.02,
+   -0.04
+  ],
+  "rear_z": 0.268,
+  "ads_dist": 0.06,
+  "fogonazo": 1.0,
+  "largo": 0.47,
+  "tris": 6812,
+  "cargador": true
+ },
+ "pdw_57": {
+  "nombre": "PDW 5.7",
+  "kind": "smg",
+  "optica": "punto",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.052,
+   0.05
+  ],
+  "foregrip": [
+   0.0,
+   -0.012,
+   -0.115
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.05,
+   -0.105
+  ],
+  "sight": [
+   0.0,
+   0.08964,
+   -0.007
+  ],
+  "muzzle": [
+   0.0,
+   0.01,
+   -0.25
+  ],
+  "mag_seat": [
+   0.0,
+   -0.018,
+   0.044
+  ],
+  "eject": [
+   0.029,
+   0.014,
+   -0.06
+  ],
+  "rear_z": 0.24,
+  "fogonazo": 1.0,
+  "largo": 0.49,
+  "tris": 9134,
+  "cargador": true,
+  "ads_dist": 0.12
+ },
+ "escopeta_bomba": {
+  "nombre": "ESCOPETA 12/70",
+  "kind": "shotgun",
+  "optica": "grano",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.064,
+   0.092
+  ],
+  "foregrip": [
+   0.0,
+   -0.014,
+   -0.262
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.016,
+   -0.17
+  ],
+  "sight": [
+   0.0,
+   0.048,
+   0.05
+  ],
+  "muzzle": [
+   0.0,
+   0.024,
+   -0.53
+  ],
+  "mag_seat": null,
+  "eject": [
+   0.03,
+   0.008,
+   -0.01
+  ],
+  "rear_z": 0.345,
+  "ads_dist": 0.08,
+  "fogonazo": 1.0,
+  "largo": 0.87,
+  "tris": 6368,
+  "cargador": false
+ },
+ "escopeta_auto": {
+  "nombre": "ESCOPETA AUTOMATICA",
+  "kind": "shotgun",
+  "optica": "punto",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.052,
+   0.096
+  ],
+  "foregrip": [
+   0.0,
+   -0.012,
+   -0.215
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.052,
+   -0.15
+  ],
+  "sight": [
+   0.0,
+   0.09364,
+   -0.012
+  ],
+  "muzzle": [
+   0.0,
+   0.018,
+   -0.434
+  ],
+  "mag_seat": [
+   0.0,
+   -0.056,
+   -0.031
+  ],
+  "eject": [
+   0.032,
+   0.014,
+   -0.04
+  ],
+  "rear_z": 0.271,
+  "fogonazo": 1.0,
+  "largo": 0.705,
+  "tris": 10602,
+  "cargador": true,
+  "ads_dist": 0.15
+ },
+ "rifle_precision": {
+  "nombre": "RIFLE DE PRECISION",
+  "kind": "sniper",
+  "optica": "visor",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.044,
+   0.098
+  ],
+  "foregrip": [
+   0.0,
+   -0.018,
+   -0.33
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.018,
+   -0.21
+  ],
+  "sight": [
+   0.0,
+   0.088,
+   0.125
+  ],
+  "muzzle": [
+   0.0,
+   0.022,
+   -0.62
+  ],
+  "mag_seat": [
+   0.0,
+   -0.052,
+   -0.03
+  ],
+  "eject": [
+   0.024,
+   0.03,
+   -0.01
+  ],
+  "rear_z": 0.38,
+  "ads_dist": 0.24,
+  "fogonazo": 1.0,
+  "largo": 1.0,
+  "tris": 18374,
+  "cargador": true
+ },
+ "pistola_9": {
+  "nombre": "PISTOLA 9MM",
+  "kind": "pistol",
+  "optica": "hierro",
+  "mano": true,
+  "grip": [
+   0.0,
+   -0.056,
+   0.062
+  ],
+  "foregrip": [
+   0.0,
+   -0.05,
+   0.056
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.05,
+   0.056
+  ],
+  "sight": [
+   0.0,
+   0.0345,
+   0.072
+  ],
+  "muzzle": [
+   0.0,
+   0.012,
+   -0.118
+  ],
+  "mag_seat": [
+   0.0,
+   -0.026,
+   0.058
+  ],
+  "eject": [
+   0.014,
+   0.014,
+   -0.026
+  ],
+  "rear_z": 0.1,
+  "ads_dist": 0.12,
+  "fogonazo": 1.0,
+  "largo": 0.22,
+  "tris": 5508,
+  "cargador": true
+ },
+ "pistola_45": {
+  "nombre": "PISTOLA .45 TACTICA",
+  "kind": "pistol",
+  "optica": "micro",
+  "mano": true,
+  "grip": [
+   0.0,
+   -0.054,
+   0.062
+  ],
+  "foregrip": [
+   0.0,
+   -0.048,
+   0.056
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.048,
+   0.056
+  ],
+  "sight": [
+   0.0,
+   0.052,
+   0.047
+  ],
+  "muzzle": [
+   0.0,
+   0.014,
+   -0.176
+  ],
+  "mag_seat": [
+   0.0,
+   -0.024,
+   0.058
+  ],
+  "eject": [
+   0.014,
+   0.016,
+   -0.04
+  ],
+  "rear_z": 0.105,
+  "fogonazo": 1.0,
+  "largo": 0.28,
+  "tris": 4678,
+  "cargador": true,
+  "ads_dist": 0.12
+ },
+ "revolver_44": {
+  "nombre": "REVOLVER .44",
+  "kind": "pistol",
+  "optica": "hierro",
+  "mano": true,
+  "grip": [
+   0.0,
+   -0.056,
+   0.076
+  ],
+  "foregrip": [
+   0.0,
+   -0.05,
+   0.07
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.05,
+   0.07
+  ],
+  "sight": [
+   0.0,
+   0.048,
+   0.048
+  ],
+  "muzzle": [
+   0.0,
+   0.016,
+   -0.215
+  ],
+  "mag_seat": null,
+  "eject": [
+   0.0,
+   0.016,
+   -0.034
+  ],
+  "rear_z": 0.1,
+  "ads_dist": 0.12,
+  "fogonazo": 1.0,
+  "largo": 0.32,
+  "tris": 4228,
+  "cargador": false
+ },
+ "bazooka_rpg": {
+  "nombre": "BAZOOKA RPG",
+  "kind": "rocket",
+  "optica": "pgo",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.092,
+   0.01
+  ],
+  "foregrip": [
+   0.0,
+   -0.1,
+   -0.205
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.078,
+   -0.19
+  ],
+  "sight": [
+   -0.052,
+   0.062,
+   0.012
+  ],
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.72
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.25,
+  "ads_dist": 0.15,
+  "fogonazo": 1.0,
+  "largo": 0.97,
+  "tris": 7310,
+  "cargador": false
+ },
+ "bazooka_at4": {
+  "nombre": "LANZACOHETES AT4",
+  "kind": "rocket",
+  "optica": "tubo",
+  "mano": false,
+  "grip": [
+   0.0,
+   -0.076,
+   0.086
+  ],
+  "foregrip": [
+   0.0,
+   -0.106,
+   -0.12
+  ],
+  "fp_foregrip": [
+   0.0,
+   -0.078,
+   -0.11
+  ],
+  "sight": [
+   -0.054,
+   0.06,
+   0.052
+  ],
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.46
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.365,
+  "ads_dist": 0.15,
+  "fogonazo": 1.0,
+  "largo": 0.86,
+  "tris": 6694,
+  "cargador": false
+ },
+ "mazo_chupetin": {
+  "nombre": "MAZO CHUPETIN",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.86075
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.1757,
+  "tris": 1316,
+  "cargador": false
+ },
+ "mazo_obra": {
+  "nombre": "MAZO DE OBRA",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.8
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.065,
+  "tris": 3952,
+  "cargador": false
+ },
+ "mazo_llave": {
+  "nombre": "LLAVE DEL MECANICO",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.85
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.12,
+  "tris": 3712,
+  "cargador": false
+ },
+ "mazo_senal": {
+  "nombre": "SEÑAL DE STOP",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.82
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.19,
+  "tris": 7884,
+  "cargador": false
+ },
+ "mazo_extintor": {
+  "nombre": "EXTINTOR",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.76
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.1,
+  "tris": 5472,
+  "cargador": false
+ },
+ "mazo_tempano": {
+  "nombre": "TEMPANO",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.8
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.105,
+  "tris": 3516,
+  "cargador": false
+ },
+ "mazo_plasma": {
+  "nombre": "MARTILLO DE PLASMA",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.79
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.04,
+  "tris": 5056,
+  "cargador": false
+ },
+ "mazo_femur": {
+  "nombre": "FEMUR",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.78
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.025,
+  "tris": 5544,
+  "cargador": false
+ },
+ "mazo_yunque": {
+  "nombre": "YUNQUE",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.86
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.16,
+  "tris": 2492,
+  "cargador": false
+ },
+ "mazo_trofeo": {
+  "nombre": "TROFEO",
+  "kind": "sledge",
+  "optica": null,
+  "mano": false,
+  "grip": [
+   0.0,
+   0.0,
+   0.09
+  ],
+  "foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "fp_foregrip": [
+   0.0,
+   0.0,
+   -0.2
+  ],
+  "sight": null,
+  "muzzle": [
+   0.0,
+   0.0,
+   -0.83
+  ],
+  "mag_seat": null,
+  "eject": null,
+  "rear_z": 0.15,
+  "fogonazo": 1.0,
+  "largo": 1.13,
+  "tris": 6868,
+  "cargador": false
+ }
+}

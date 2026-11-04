@@ -1,0 +1,422 @@
+{
+ "nombre": "EL AMANECER",
+ "capitulo": "Episodio 3 · Del muelle a la ciudadela",
+ "episodio": 3,
+ "requiere": "campana_puerto",
+ "script": "res://scripts/campana3.gd",
+ "hora": "amanecer",
+ "sol_azimut": 172.0,
+ "ruta": [
+  [
+   24.0,
+   1.0,
+   108.0,
+   "muelle"
+  ],
+  [
+   47.5,
+   1.0,
+   102.0,
+   "contenedor"
+  ],
+  [
+   41.0,
+   5.0,
+   94.5,
+   "malecon"
+  ],
+  [
+   60.0,
+   5.0,
+   84.0,
+   "plaza del mercado"
+  ],
+  [
+   52.0,
+   5.0,
+   64.0,
+   "pasaje"
+  ],
+  [
+   52.0,
+   5.0,
+   54.0,
+   "dentro del pasaje"
+  ],
+  [
+   52.0,
+   8.0,
+   40.0,
+   "cuesta"
+  ],
+  [
+   52.0,
+   11.0,
+   24.0,
+   "mirador"
+  ],
+  [
+   64.0,
+   11.0,
+   19.0,
+   "chimenea"
+  ],
+  [
+   74.5,
+   11.0,
+   15.8,
+   "barranco"
+  ],
+  [
+   88.0,
+   11.0,
+   17.0,
+   "calle alta"
+  ],
+  [
+   98.0,
+   11.0,
+   23.0,
+   "entrada del refugio"
+  ],
+  [
+   98.0,
+   11.0,
+   31.0,
+   "refugio"
+  ],
+  [
+   110.0,
+   11.0,
+   31.0,
+   "patio del montacargas"
+  ],
+  [
+   113.0,
+   11.0,
+   35.5,
+   "generador"
+  ],
+  [
+   121.8,
+   11.0,
+   31.0,
+   "montacargas"
+  ],
+  [
+   128.0,
+   23.0,
+   31.0,
+   "arriba del acantilado"
+  ],
+  [
+   132.5,
+   23.0,
+   32.0,
+   "foso"
+  ],
+  [
+   137.0,
+   23.0,
+   32.0,
+   "puente levadizo"
+  ],
+  [
+   146.0,
+   23.0,
+   32.0,
+   "plaza de armas"
+  ],
+  [
+   150.0,
+   23.0,
+   17.0,
+   "radio"
+  ],
+  [
+   150.0,
+   23.0,
+   46.0,
+   "helipuerto"
+  ]
+ ],
+ "salida": [
+  24.0,
+  1.0,
+  108.0
+ ],
+ "municion_fija": [
+  [
+   34.0,
+   1.0,
+   104.0
+  ],
+  [
+   30.0,
+   5.0,
+   66.0
+  ],
+  [
+   40.0,
+   11.0,
+   20.0
+  ],
+  [
+   98.0,
+   11.0,
+   33.0
+  ],
+  [
+   128.0,
+   23.0,
+   36.0
+  ],
+  [
+   146.0,
+   23.0,
+   14.0
+  ]
+ ],
+ "contenedor": {
+  "caja": [
+   38.0,
+   4.6,
+   98.3,
+   44.0,
+   7.2,
+   100.7
+  ],
+  "suelo": 1.0,
+  "puntales": [
+   [
+    38.2,
+    1.0,
+    98.5,
+    38.6,
+    4.48,
+    98.9
+   ],
+   [
+    43.4,
+    1.0,
+    98.5,
+    43.8,
+    4.48,
+    98.9
+   ],
+   [
+    38.2,
+    1.0,
+    100.1,
+    38.6,
+    4.48,
+    100.5
+   ],
+   [
+    43.4,
+    1.0,
+    100.1,
+    43.8,
+    4.48,
+    100.5
+   ],
+   [
+    40.8,
+    1.0,
+    98.5,
+    41.2,
+    4.48,
+    98.9
+   ],
+   [
+    40.8,
+    1.0,
+    100.1,
+    41.2,
+    4.48,
+    100.5
+   ]
+  ]
+ },
+ "persiana": {
+  "rect": [
+   50.0,
+   5.0,
+   59.6,
+   54.0,
+   8.4,
+   60.0
+  ],
+  "palanca": [
+   59.0,
+   8.3,
+   60.2
+  ]
+ },
+ "chimenea": {
+  "base": [
+   66.2,
+   11.0,
+   14.6,
+   68.6,
+   13.2,
+   17.0
+  ],
+  "pivote": [
+   68.6,
+   11.0,
+   15.8
+  ],
+  "largo": 15.0,
+  "radio": 0.95
+ },
+ "generador": {
+  "boton": [
+   113.0,
+   11.0,
+   37.4
+  ],
+  "calentar": 40.0
+ },
+ "montacargas": {
+  "cabina": [
+   120.0,
+   11.0,
+   28.6,
+   123.6,
+   11.0,
+   33.4
+  ],
+  "boton": [
+   120.3,
+   11.0,
+   31.0
+  ],
+  "arriba": 23.0,
+  "duracion": 22.0
+ },
+ "puente": {
+  "bisagra": [
+   139.0,
+   23.0,
+   32.0
+  ],
+  "largo": 6.0,
+  "ancho": 6.0,
+  "tranca": [
+   136.8,
+   29.2,
+   31.65,
+   139.2,
+   29.9,
+   32.35
+  ]
+ },
+ "refugio": {
+  "rect": [
+   92.0,
+   26.0,
+   104.0,
+   36.0
+  ],
+  "puerta_entrada": [
+   98.0,
+   26.0
+  ],
+  "puerta_salida": [
+   104.0,
+   31.0
+  ],
+  "suelo": 11.0
+ },
+ "azotea_hospital": [
+  143.0,
+  23.0,
+  8.0,
+  157.0,
+  60.0
+ ],
+ "calle_desde": "muelle",
+ "refugio_salida_texto": "Salid por la puerta ESTE del refugio: el MONTACARGAS del acantilado",
+ "radio": [
+  150.0,
+  23.0,
+  14.0
+ ],
+ "helipuerto": [
+  150.0,
+  23.0,
+  48.0
+ ],
+ "barco": [
+  24.0,
+  0.55,
+  127.0
+ ],
+ "vehiculo": "HELICÓPTERO",
+ "cine_entrada": {
+  "puntos": [
+   [
+    60.0,
+    34.0,
+    150.0
+   ],
+   [
+    40.0,
+    22.0,
+    132.0
+   ],
+   [
+    30.0,
+    12.0,
+    122.0
+   ],
+   [
+    26.0,
+    5.0,
+    114.0
+   ]
+  ],
+  "mira": [
+   [
+    80.0,
+    18.0,
+    40.0
+   ],
+   [
+    100.0,
+    26.0,
+    30.0
+   ],
+   [
+    60.0,
+    12.0,
+    60.0
+   ],
+   [
+    24.0,
+    2.0,
+    108.0
+   ]
+  ],
+  "titulo": "EL AMANECER",
+  "sub": "Episodio 3 · Del muelle a la ciudadela"
+ },
+ "cine_final": {
+  "desde": [
+   150.0,
+   23.0,
+   48.0
+  ],
+  "hacia_mar": [
+   80.0,
+   30.0,
+   190.0
+  ]
+ },
+ "mensaje_inicio": "EL AMANECER · subid hasta la ciudadela",
+ "texto_inicio": "Subid al malecón",
+ "radio_texto": "USAR LA RADIO (atraerá a la horda)",
+ "radio_mensaje": "RADIO: «¡Ciudadela, os tenemos! Helicóptero en camino. ¡Aguantad en la plaza de armas!»",
+ "llega_texto": "¡EL HELICÓPTERO HA LLEGADO! ¡AL HELIPUERTO!"
+}

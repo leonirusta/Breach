@@ -1,0 +1,320 @@
+{
+ "nombre": "EL PUERTO",
+ "capitulo": "Episodio 2 · Del patio de vías al río",
+ "episodio": 2,
+ "requiere": "campana_huida",
+ "script": "res://scripts/campana2.gd",
+ "ruta": [
+  [
+   12.0,
+   1.0,
+   31.0,
+   "restos del helicoptero"
+  ],
+  [
+   36.0,
+   1.0,
+   22.0,
+   "patio de vias"
+  ],
+  [
+   57.0,
+   1.0,
+   20.0,
+   "tapiado del tunel"
+  ],
+  [
+   72.0,
+   1.0,
+   20.0,
+   "tunel"
+  ],
+  [
+   100.0,
+   1.0,
+   20.0,
+   "calle de las naves"
+  ],
+  [
+   108.0,
+   1.0,
+   25.0,
+   "puerta de la nave"
+  ],
+  [
+   108.0,
+   1.0,
+   44.0,
+   "nave"
+  ],
+  [
+   114.0,
+   1.0,
+   45.5,
+   "bajo la rampa"
+  ],
+  [
+   130.0,
+   4.2,
+   46.0,
+   "altillo"
+  ],
+  [
+   144.0,
+   4.2,
+   50.2,
+   "pasarela"
+  ],
+  [
+   152.9,
+   1.0,
+   42.2,
+   "escalera"
+  ],
+  [
+   144.0,
+   1.0,
+   56.0,
+   "callejon"
+  ],
+  [
+   144.0,
+   1.0,
+   67.0,
+   "entrada del refugio"
+  ],
+  [
+   144.0,
+   1.0,
+   75.0,
+   "refugio"
+  ],
+  [
+   144.0,
+   1.0,
+   84.0,
+   "barricada"
+  ],
+  [
+   144.0,
+   1.0,
+   97.0,
+   "puerto"
+  ],
+  [
+   110.0,
+   1.0,
+   100.0,
+   "casetas"
+  ],
+  [
+   70.0,
+   1.0,
+   102.0,
+   "sala de control"
+  ],
+  [
+   50.0,
+   1.0,
+   101.0,
+   "puerta del muelle"
+  ],
+  [
+   30.0,
+   1.0,
+   104.0,
+   "muelle"
+  ],
+  [
+   16.0,
+   1.0,
+   118.0,
+   "embarcadero"
+  ]
+ ],
+ "salida": [
+  12.0,
+  1.0,
+  31.0
+ ],
+ "calle_desde": "tapiado del tunel",
+ "heli_estrellado": [
+  22.0,
+  1.0,
+  25.0
+ ],
+ "mesa": [
+  7.2,
+  1.78,
+  34.5
+ ],
+ "municion_mesa": [
+  10.8,
+  1.0,
+  34.5
+ ],
+ "municion_fija": [
+  [
+   70.0,
+   1.0,
+   24.0
+  ],
+  [
+   128.0,
+   4.2,
+   58.0
+  ],
+  [
+   144.0,
+   1.0,
+   62.0
+  ],
+  [
+   40.0,
+   1.0,
+   96.0
+  ],
+  [
+   120.0,
+   1.0,
+   92.0
+  ]
+ ],
+ "rompibles": [
+  {
+   "id": "tapiado",
+   "texto": "ROMPED EL TAPIADO DEL TÚNEL",
+   "min": [
+    62.6,
+    1.0,
+    16.0
+   ],
+   "max": [
+    63.3,
+    5.5,
+    24.0
+   ]
+  },
+  {
+   "id": "barricada",
+   "texto": "ROMPED LA BARRICADA",
+   "min": [
+    140.0,
+    1.0,
+    85.7
+   ],
+   "max": [
+    148.0,
+    4.4,
+    86.65
+   ]
+  }
+ ],
+ "rampa": {
+  "bisagra": [
+   124.0,
+   4.2,
+   45.5
+  ],
+  "largo": 7.2,
+  "ancho": 3.0,
+  "suelo": 1.0,
+  "pilas": [
+   [
+    [
+     116.9,
+     1.0,
+     44.2
+    ],
+    [
+     117.9,
+     4.0,
+     45.1
+    ]
+   ],
+   [
+    [
+     116.9,
+     1.0,
+     45.9
+    ],
+    [
+     117.9,
+     4.0,
+     46.8
+    ]
+   ]
+  ]
+ },
+ "refugio": {
+  "rect": [
+   138.0,
+   70.0,
+   150.0,
+   80.0
+  ],
+  "puerta_entrada": [
+   144.0,
+   70.0
+  ],
+  "puerta_salida": [
+   144.0,
+   80.0
+  ],
+  "suelo": 1.0
+ },
+ "fusibles": [
+  [
+   122.0,
+   1.9,
+   96.0
+  ],
+  [
+   100.0,
+   1.9,
+   106.0
+  ],
+  [
+   78.0,
+   1.9,
+   96.0
+  ]
+ ],
+ "porton": {
+  "rect": [
+   54.0,
+   90.0,
+   55.2,
+   112.0
+  ],
+  "boton": [
+   63.5,
+   1.0,
+   99.2
+  ],
+  "alto": 5.6
+ },
+ "radio": [
+  30.0,
+  1.0,
+  99.0
+ ],
+ "helipuerto": [
+  16.0,
+  1.0,
+  119.0
+ ],
+ "barco": [
+  16.0,
+  0.55,
+  125.5
+ ],
+ "vehiculo": "BARCO",
+ "mensaje_inicio": "EL PUERTO · llegad al río",
+ "texto_inicio": "Salid del patio de vías",
+ "refugio_salida_texto": "Salid por la puerta sur del refugio",
+ "porton_texto": "PONER LOS FUSIBLES (la reja hará ruido: vendrá la horda)",
+ "radio_texto": "TOCAR LA SIRENA (atraerá a la horda)",
+ "radio_mensaje": "RADIO DEL BARCO: «¡Os oímos! Vamos para allá. ¡Aguantad en el muelle!»",
+ "llega_texto": "¡EL BARCO HA LLEGADO! ¡AL EMBARCADERO!"
+}

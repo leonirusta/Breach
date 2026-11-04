@@ -1,0 +1,14 @@
+{
+ "cuerpos": [
+  {
+   "y": 2.2,
+   "rect": [
+    141.0,
+    3.0,
+    177.7,
+    44.0
+   ]
+  }
+ ],
+ "source": "tools/generar_mapa_campana7.py"
+}

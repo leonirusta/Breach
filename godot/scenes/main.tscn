@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Material" path="res://shaders/voxel_material.tres" id="3_vmat"]
+[ext_resource type="Material" path="res://shaders/glass_material.tres" id="4_gmat"]
+[ext_resource type="Script" path="res://scripts/hud.gd" id="5_hud"]
+
+[sub_resource type="Environment" id="Environment_1"]
+background_mode = 1
+background_color = Color(0.55, 0.7, 0.9, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.55, 0.62, 0.75, 1)
+ambient_light_energy = 0.24
+tonemap_mode = 2
+fog_enabled = true
+fog_light_color = Color(0.62, 0.7, 0.85, 1)
+fog_density = 0.002
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_main")
+
+[node name="VoxelWorld" type="VoxelWorld" parent="."]
+quality = 1
+chunks = Vector3i(20, 4, 20)
+seed = 1234
+auto_generate = false
+opaque_material = ExtResource("3_vmat")
+glass_material = ExtResource("4_gmat")
+collision_layer = 1
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+light_energy = 1.0
+shadow_enabled = true
+directional_shadow_mode = 1
+directional_shadow_max_distance = 60.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_1")
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, 4)
+
+[node name="Enemies" type="Node3D" parent="."]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("5_hud")

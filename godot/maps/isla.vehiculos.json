@@ -1,0 +1,274 @@
+{
+ "puntos": [
+  {
+   "pos": [
+    253.55,
+    0.0,
+    185.91
+   ],
+   "giro": 189.5,
+   "tipo": "coche",
+   "zona": "norte"
+  },
+  {
+   "pos": [
+    153.71,
+    0.0,
+    192.84
+   ],
+   "giro": -47.1,
+   "tipo": "moto",
+   "zona": "bosque"
+  },
+  {
+   "pos": [
+    149.56,
+    0.0,
+    261.93
+   ],
+   "giro": -78.6,
+   "tipo": "todoterreno",
+   "zona": "oeste"
+  },
+  {
+   "pos": [
+    92.05,
+    0.0,
+    270.37
+   ],
+   "giro": 82.4,
+   "tipo": "coche",
+   "zona": "oeste"
+  },
+  {
+   "pos": [
+    192.62,
+    0.0,
+    342.62
+   ],
+   "giro": 155.0,
+   "tipo": "moto",
+   "zona": "desierto"
+  },
+  {
+   "pos": [
+    282.63,
+    0.0,
+    347.61
+   ],
+   "giro": 157.8,
+   "tipo": "coche",
+   "zona": "sur"
+  },
+  {
+   "pos": [
+    313.62,
+    0.0,
+    396.04
+   ],
+   "giro": 322.0,
+   "tipo": "moto",
+   "zona": "sur"
+  },
+  {
+   "pos": [
+    364.84,
+    0.0,
+    423.25
+   ],
+   "giro": 108.4,
+   "tipo": "todoterreno",
+   "zona": "sur"
+  },
+  {
+   "pos": [
+    350.42,
+    0.0,
+    263.37
+   ],
+   "giro": 93.6,
+   "tipo": "coche",
+   "zona": "amazonas"
+  },
+  {
+   "pos": [
+    408.19,
+    0.0,
+    266.0
+   ],
+   "giro": 288.4,
+   "tipo": "moto",
+   "zona": "amazonas"
+  },
+  {
+   "pos": [
+    344.86,
+    0.0,
+    188.17
+   ],
+   "giro": 49.3,
+   "tipo": "coche",
+   "zona": "noreste"
+  },
+  {
+   "pos": [
+    394.03,
+    0.0,
+    156.74
+   ],
+   "giro": 113.2,
+   "tipo": "moto",
+   "zona": "noreste"
+  },
+  {
+   "pos": [
+    53.4,
+    0.0,
+    233.89
+   ],
+   "giro": 190.9,
+   "tipo": "todoterreno",
+   "zona": "costa_oeste"
+  },
+  {
+   "pos": [
+    76.13,
+    0.0,
+    182.47
+   ],
+   "giro": 39.5,
+   "tipo": "coche",
+   "zona": "costa_oeste"
+  },
+  {
+   "pos": [
+    55.28,
+    0.0,
+    289.55
+   ],
+   "giro": 157.5,
+   "tipo": "moto",
+   "zona": "costa_suroeste"
+  },
+  {
+   "pos": [
+    86.46,
+    0.0,
+    337.89
+   ],
+   "giro": 322.0,
+   "tipo": "coche",
+   "zona": "costa_suroeste"
+  },
+  {
+   "pos": [
+    119.76,
+    0.0,
+    386.19
+   ],
+   "giro": 123.7,
+   "tipo": "moto",
+   "zona": "costa_suroeste"
+  },
+  {
+   "pos": [
+    280.79,
+    0.0,
+    413.46
+   ],
+   "giro": 64.7,
+   "tipo": "todoterreno",
+   "zona": "costa_sur"
+  },
+  {
+   "pos": [
+    434.04,
+    0.0,
+    292.13
+   ],
+   "giro": 360.0,
+   "tipo": "coche",
+   "zona": "costa_este"
+  },
+  {
+   "pos": [
+    437.39,
+    0.0,
+    349.41
+   ],
+   "giro": -166.6,
+   "tipo": "moto",
+   "zona": "costa_este"
+  },
+  {
+   "pos": [
+    413.92,
+    0.0,
+    402.37
+   ],
+   "giro": -155.4,
+   "tipo": "coche",
+   "zona": "costa_este"
+  },
+  {
+   "pos": [
+    433.69,
+    0.0,
+    195.64
+   ],
+   "giro": 335.8,
+   "tipo": "moto",
+   "zona": "costa_noreste"
+  },
+  {
+   "pos": [
+    424.09,
+    0.0,
+    250.88
+   ],
+   "giro": -163.8,
+   "tipo": "todoterreno",
+   "zona": "costa_noreste"
+  },
+  {
+   "pos": [
+    249.6,
+    0.0,
+    205.6
+   ],
+   "giro": 0.0,
+   "tipo": "helicoptero",
+   "zona": "aire"
+  },
+  {
+   "pos": [
+    384.0,
+    0.0,
+    422.0
+   ],
+   "giro": 0.0,
+   "tipo": "helicoptero",
+   "zona": "aire"
+  },
+  {
+   "pos": [
+    122.0,
+    0.0,
+    318.0
+   ],
+   "giro": 0.0,
+   "tipo": "helicoptero",
+   "zona": "aire"
+  },
+  {
+   "pos": [
+    136.0,
+    0.0,
+    172.0
+   ],
+   "giro": 0.0,
+   "tipo": "helicoptero",
+   "zona": "aire"
+  }
+ ]
+}

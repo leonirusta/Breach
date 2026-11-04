@@ -1,0 +1,800 @@
+{
+ "nombre": "LA CASA",
+ "salida_escondidos": [
+  6.6,
+  1.0,
+  5.6
+ ],
+ "salida_cazadores": [
+  13.0,
+  1.0,
+  1.2
+ ],
+ "mira_cazadores": 180.0,
+ "muebles": [
+  {
+   "tipo": "sofa",
+   "pos": [
+    6.6,
+    1.0,
+    3.7
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "sillon",
+   "pos": [
+    3.8,
+    1.0,
+    5.8
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "sillon",
+   "pos": [
+    9.4,
+    1.0,
+    5.8
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "mueble_tv",
+   "pos": [
+    6.6,
+    1.0,
+    7.8
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "tele",
+   "pos": [
+    6.6,
+    1.0,
+    7.8
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "mesa_ratona",
+   "pos": [
+    6.6,
+    1.0,
+    5.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "lampara_pie",
+   "pos": [
+    3.6,
+    1.0,
+    3.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "maceta_grande",
+   "pos": [
+    4.6,
+    1.0,
+    3.5
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "estanteria",
+   "pos": [
+    3.4,
+    1.0,
+    7.6
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "maceta",
+   "pos": [
+    9.7,
+    1.0,
+    7.7
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "radio",
+   "pos": [
+    9.2,
+    1.0,
+    7.8
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "mesa_comedor",
+   "pos": [
+    6.6,
+    1.0,
+    11.2
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    5.6,
+    1.0,
+    10.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    7.6,
+    1.0,
+    10.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    5.6,
+    1.0,
+    12.0
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    7.6,
+    1.0,
+    12.0
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    4.4,
+    1.0,
+    11.2
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    8.8,
+    1.0,
+    11.2
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "aparador",
+   "pos": [
+    3.5,
+    1.0,
+    11.2
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "maceta",
+   "pos": [
+    3.6,
+    1.0,
+    13.3
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "reloj_pie",
+   "pos": [
+    9.7,
+    1.0,
+    9.1
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "perchero",
+   "pos": [
+    11.0,
+    1.0,
+    3.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "banqueta",
+   "pos": [
+    15.6,
+    1.0,
+    3.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "maceta_grande",
+   "pos": [
+    16.0,
+    1.0,
+    6.8
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "caja",
+   "pos": [
+    17.2,
+    1.0,
+    6.8
+   ],
+   "giro": 20
+  },
+  {
+   "tipo": "heladera",
+   "pos": [
+    11.2,
+    1.0,
+    8.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "cocina",
+   "pos": [
+    13.4,
+    1.0,
+    13.2
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "microondas",
+   "pos": [
+    11.6,
+    1.0,
+    13.3
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "mesa_cocina",
+   "pos": [
+    12.8,
+    1.0,
+    10.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "banqueta",
+   "pos": [
+    12.0,
+    1.0,
+    10.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "banqueta",
+   "pos": [
+    13.6,
+    1.0,
+    10.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "tacho",
+   "pos": [
+    14.5,
+    1.0,
+    8.3
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "maceta",
+   "pos": [
+    14.6,
+    1.0,
+    11.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "lavarropas",
+   "pos": [
+    16.0,
+    1.0,
+    13.2
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "lavarropas",
+   "pos": [
+    17.1,
+    1.0,
+    13.2
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "inodoro",
+   "pos": [
+    17.2,
+    1.0,
+    8.4
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "canasto",
+   "pos": [
+    16.0,
+    1.0,
+    9.0
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "bidon",
+   "pos": [
+    17.2,
+    1.0,
+    11.0
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "caja",
+   "pos": [
+    22.4,
+    1.0,
+    8.2
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "caja",
+   "pos": [
+    22.4,
+    1.0,
+    7.4
+   ],
+   "giro": 10
+  },
+  {
+   "tipo": "caja",
+   "pos": [
+    21.6,
+    1.0,
+    8.2
+   ],
+   "giro": -15
+  },
+  {
+   "tipo": "neumatico",
+   "pos": [
+    19.6,
+    1.0,
+    8.2
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "bidon",
+   "pos": [
+    22.6,
+    1.0,
+    3.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "bici",
+   "pos": [
+    22.4,
+    1.0,
+    5.4
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "tacho",
+   "pos": [
+    19.6,
+    1.0,
+    6.0
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "banco_trabajo",
+   "pos": [
+    21.0,
+    1.0,
+    8.3
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "parrilla",
+   "pos": [
+    21.4,
+    1.0,
+    16.4
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "mesa_jardin",
+   "pos": [
+    8.0,
+    1.0,
+    17.8
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "silla_jardin",
+   "pos": [
+    7.0,
+    1.0,
+    17.8
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "silla_jardin",
+   "pos": [
+    9.0,
+    1.0,
+    17.8
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "maceta_grande",
+   "pos": [
+    3.2,
+    1.0,
+    15.2
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "maceta_grande",
+   "pos": [
+    17.6,
+    1.0,
+    15.2
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "regadera",
+   "pos": [
+    4.2,
+    1.0,
+    21.6
+   ],
+   "giro": 30
+  },
+  {
+   "tipo": "caja",
+   "pos": [
+    23.8,
+    1.0,
+    23.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "tacho",
+   "pos": [
+    23.6,
+    1.0,
+    15.2
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "cama_doble",
+   "pos": [
+    6.6,
+    4.2,
+    3.9
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "mesa_luz",
+   "pos": [
+    5.0,
+    4.2,
+    3.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "mesa_luz",
+   "pos": [
+    8.2,
+    4.2,
+    3.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "velador",
+   "pos": [
+    5.0,
+    4.2,
+    3.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "velador",
+   "pos": [
+    8.2,
+    4.2,
+    3.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "ropero",
+   "pos": [
+    3.5,
+    4.2,
+    6.6
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "comoda",
+   "pos": [
+    6.6,
+    4.2,
+    7.8
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "tele_apagada",
+   "pos": [
+    6.6,
+    4.2,
+    7.8
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "maceta",
+   "pos": [
+    9.7,
+    4.2,
+    7.7
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    9.4,
+    4.2,
+    7.0
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "cama",
+   "pos": [
+    4.2,
+    4.2,
+    10.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "mesa_luz",
+   "pos": [
+    5.2,
+    4.2,
+    9.1
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "escritorio",
+   "pos": [
+    8.4,
+    4.2,
+    13.3
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    8.4,
+    4.2,
+    12.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "computadora",
+   "pos": [
+    8.4,
+    4.2,
+    13.4
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "estanteria",
+   "pos": [
+    9.8,
+    4.2,
+    9.3
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "pelota",
+   "pos": [
+    6.4,
+    4.2,
+    11.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "caja",
+   "pos": [
+    3.6,
+    4.2,
+    13.2
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "lampara_pie",
+   "pos": [
+    3.6,
+    4.2,
+    9.0
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "maceta_grande",
+   "pos": [
+    17.3,
+    4.2,
+    3.5
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "banqueta",
+   "pos": [
+    16.0,
+    4.2,
+    3.4
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "escritorio",
+   "pos": [
+    12.8,
+    4.2,
+    13.3
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "silla",
+   "pos": [
+    12.8,
+    4.2,
+    12.6
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "computadora",
+   "pos": [
+    12.8,
+    4.2,
+    13.4
+   ],
+   "giro": 180
+  },
+  {
+   "tipo": "estanteria",
+   "pos": [
+    11.0,
+    4.2,
+    9.0
+   ],
+   "giro": 90
+  },
+  {
+   "tipo": "sillon",
+   "pos": [
+    14.2,
+    4.2,
+    9.0
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "lampara_pie",
+   "pos": [
+    11.0,
+    4.2,
+    13.3
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "guitarra",
+   "pos": [
+    14.6,
+    4.2,
+    12.2
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "lavabo",
+   "pos": [
+    17.4,
+    4.2,
+    9.0
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "inodoro",
+   "pos": [
+    17.3,
+    4.2,
+    10.6
+   ],
+   "giro": -90
+  },
+  {
+   "tipo": "banera",
+   "pos": [
+    16.6,
+    4.2,
+    13.0
+   ],
+   "giro": 0
+  },
+  {
+   "tipo": "canasto",
+   "pos": [
+    15.8,
+    4.2,
+    11.4
+   ],
+   "giro": 0
+  }
+ ],
+ "source": "tools/generar_mapa_casa.py"
+}
