@@ -155,6 +155,5 @@ mapas o sonidos sin permiso escrito del autor. Ver [LICENSE](LICENSE).
 ## 📝 Notas
 
 - Esta versión **no incluye pagos con dinero real**: la pasarela de pago se quitó.
-- Algunos sonidos son de terceros y están puestos de forma temporal, solo para pruebas.
 
 © León Irusta
