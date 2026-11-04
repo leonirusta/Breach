@@ -1,3 +1,7 @@
+
+
+
+
 # 💥 BREACH
 
 **Un shooter online en primera persona donde TODO se puede destruir.**
@@ -15,6 +19,8 @@ para que corra en **celulares de gama baja**, así lo puede jugar cualquiera.
 ---
 
 ## 🎮 Cómo se ve
+
+https://github.com/user-attachments/assets/08b817e3-f3c9-4e8b-b5a9-b535713d2000
 
 ![Destrucción en tiempo real con lluvia](docs/media/cafeteria_lluvia.jpg)
 
