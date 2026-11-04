@@ -146,6 +146,12 @@ decide qué se hace; la IA escribe e investiga el código y mide el rendimiento 
 
 ---
 
+## ⚖️ Licencia: todos los derechos reservados
+
+**© 2026 León Irusta.** El código se publica **solo para que se pueda ver** como portafolio. Está **prohibido**
+copiarlo, modificarlo (a mano o con inteligencia artificial), publicarlo, venderlo o usar sus imágenes, modelos,
+mapas o sonidos sin permiso escrito del autor. Ver [LICENSE](LICENSE).
+
 ## 📝 Notas
 
 - Esta versión **no incluye pagos con dinero real**: la pasarela de pago se quitó.
