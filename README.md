@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/08b817e3-f3c9-4e8b-b5a9-b535713d2000
   de la misma forma.
 - **Sistema anti-trampa en los disparos**: el servidor "rebobina" el tiempo para ver exactamente lo que veía el
   que disparó y decide si acertó.
-- Si el internet directo no anda (datos móviles, la red de la facultad), la partida pasa sola por un **puente**
+- Si el internet directo no anda (datos móviles), la partida pasa sola por un **puente**
   en el servidor.
 
 ### 🕹️ Modos de juego
